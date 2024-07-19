@@ -1,0 +1,27 @@
+{
+  "name": "@luket12/wallet-watcher-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for Wallet Watcher",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "author": "Luke Taaffe",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
